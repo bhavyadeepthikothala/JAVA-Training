@@ -1,0 +1,27 @@
+<web-app
+        version="3.0"
+        xmlns="http://java.sun.com/xml/ns/javaee"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" >
+ 
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>StudentController</servlet-name>
+  	<servlet-class>com.tekeztrain.studentregistration.controller.StudentController</servlet-class>
+  </servlet>
+  <servlet>
+  	<description>
+  	</description>
+  	<display-name>ResgistrationController</display-name>
+  	<servlet-name>ResgistrationController</servlet-name>
+  	<servlet-class>com.tekeztrain.studentregistration.controller.ResgistrationController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>StudentController</servlet-name>
+  	<url-pattern>/Student</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ResgistrationController</servlet-name>
+  	<url-pattern>/ResgistrationController</url-pattern>
+  </servlet-mapping>
+</web-app>
