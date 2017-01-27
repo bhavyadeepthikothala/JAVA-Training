@@ -1,2 +1,2 @@
 # Learning-JAVA
-All programs and projects done during training on java
+All programs and projects done during learning JAVA
