@@ -27,7 +27,7 @@ public class HelloController
 		return "/hello.jsp";
 	}
 	
-	@RequestMapping(method = RequestMethod.POST)
+	@RequestMapping(value="/hello", method = RequestMethod.POST)
 	public String processRequest(HttpServletRequest request, HttpServletResponse response)
 	{
 		return "/hello.jsp";
@@ -76,7 +76,7 @@ public class HelloController
 
 // Using Beans in the Program
  
-// @Controller
+//@Controller
 
 public class HelloController
 {
@@ -87,8 +87,7 @@ public class HelloController
 	}
 	
 	@RequestMapping(value="/register" , method = RequestMethod.GET)
-	public ModelAndView register() 
-			throws ServletException, IOException
+	public ModelAndView register() throws ServletException, IOException
 	{
 		 //For ClassPathXmlApplicationContext to work we need to copy the Myapp-servlet.xml file 
 		 //into src directory because the Spring cannot identify some file that is not in the class path  

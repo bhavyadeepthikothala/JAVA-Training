@@ -9,12 +9,12 @@
 <body>
 	<form method="post">
 	
-		<!--UserName: <input type = "text" name="userName"   value="${student.userName}" /><br/>-->
+		<!--  UserName: <input type = "text" name="userName"   value="${student.userName}" /><br/> -->
 		UserName: <input type = "text" name="userName"/><br/>
 		FirstName: <input type = "text" name="firstName" /><br/>
 		LastName: <input type = "text" name="lastName" /><br/>
 		Password: <input type = "text" name="password" /><br/>
-		<input type="submit" value="submit"/>
+		<input type="submit" value="submit"/> 
 		
 	</form>
 </body>
